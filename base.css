@@ -15,7 +15,9 @@ body p img {
 body {
 	background-image: url(ai-generated-8445855_1920.jpg);
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 body p {
 	color: #FFFFFF;
+	background-size: 100% 1%;
 }

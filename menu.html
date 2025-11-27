@@ -1,44 +1,93 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="ja">
 <head>
-<meta charset="utf-8">
-<title>リストサンプル</title>
-<link href="base3.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>メニュー - イタリアン Wine BarChibaTech</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
-<!-- 実際には#にURLを記述 -->
-
 <body>
-<ul class="ddmenu">
-   <li><a href="#">HOME</a></li>
-   <li><a href="#">ニュース</a>
-      <ul>
-         <li><a href="#">新製品</a></li>
-         <li><a href="#">新サービス</a></li>
-         <li><a href="#">弊社について</a></li>
-      </ul>
-   </li>
-   <li><a href="#">製品・技術</a>
-      <ul>
-         <li><a href="#">ハードウェア</a></li>
-         <li><a href="#">ソフトウェア</a></li>
-         <li><a href="#">ウェブサービス</a></li>
-      </ul>
-   </li>
-   <li><a href="#">会社情報</a>
-      <ul>
-         <li><a href="#">会社概要</a></li>
-         <li><a href="#">社長挨拶</a></li>
-         <li><a href="#">沿革</a></li>
-         <li><a href="#">所在地</a></li>
-      </ul>
-   </li>
-   <li><a href="#">お問い合わせ</a>
-      <ul>
-         <li><a href="#">よくあるご質問</a></li>
-         <li><a href="#">お問い合わせ先</a></li>
-      </ul>
-   </li>
-</ul>
+    <header>
+        <div class="header-inner">
+            <h1 class="logo">
+				<img src="logo_italia.png"  alt="イタリアン Wine Bar ChibaTech"/>
+				<span>イタリアン Wine BarChibaTech</span>
+			</h1>
+            <p class="tagline">幸せを呼ぶ…ワインと国産牛肉とチーズの美味しいお店</p>
+      </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="menu.html">MENU &amp; COURSE</a></li>
+                <li><a href="index.html#access">ACCESS</a></li>
+                <li><a href="#contact">RESERVE</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main class="menu-page">
+            <h2>MENU &amp; COURSE</h2>
+            
+            <section class="course-section">
+                <h3>コスパ最高のコースメニューも人気</h3>
+                <p>女子会、お仲間とのご宴会におすすめです。飲み放題付きコースも人気！</p>
+                
+                <div class="course-grid">
+                    <div class="course-card">
+                        <h4>カジュアルコース</h4>
+                        <p class="price">2,980円</p>
+                        <p>気軽な宴会にぴったりのお得なコース。</p>
+                    </div>
+                    <div class="course-card recommended">
+                        <div class="badge">スタンダード</div>
+                        <h4>スタンダードコース</h4>
+                        <p class="price">3,980円</p>
+                        <p>旬の食材をバランスよく楽しめる人気No.1コース。</p>
+                    </div>
+                    <div class="course-card">
+                        <h4>プレミアムコース</h4>
+                        <p class="price">5,980円</p>
+                        <p>特別な記念日に。国産牛と贅沢食材を堪能。</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="drink-menu">
+                <h3>Wine &amp; Drink List</h3>
+                <p>自分達が美味しいと思ったワインだけをご用意しております。</p>
+                <div class="text-block">
+                    <h4>ワイン</h4>
+                    <ul>
+                        <li>リーズナブルな日替わりグラスワイン ... 580円〜</li>
+                        <li>ボトルワイン各種</li>
+                        <li>ワインの専門家はいません。自分たちが美味しいと思ったワインだけをご用意しております。</li>
+                    </ul>
+                    <h4>その他</h4>
+                    <ul>
+                        <li>クラフトビール</li>
+                        <li>ソフトドリンク各種</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        
+        <aside>
+            <div class="sidebar-box">
+                <h3>ご予約・お問い合わせ</h3>
+                <p class="tel">000-1234-5678</p>
+                <p>女子会、記念日、友人とお気軽にどうぞ！！</p>
+            </div>
+            <div class="sidebar-box">
+              <h3>店内イメージ</h3>
+                <img src="内装1.jpg"  alt="" class="access-img">
+              <p>いつも笑顔が溢れる明るい店内です。</p>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Italian CIT. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
